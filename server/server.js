@@ -91,7 +91,7 @@ app.post('/api/create-order', verifyToken, async (req, res) => {
         customer_phone: '9515096422', // You can make this dynamic if needed
       },
       order_meta: {
-        return_url: `http://localhost:3000/success?order_id={order_id}`,
+        return_url: `https://farmdirect-beta.vercel.app/success?order_id={order_id}`,
       },
       order_note: 'Test payment for an awesome product',
     };
