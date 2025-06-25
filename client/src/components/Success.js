@@ -14,7 +14,7 @@ const Success = () => {
       try {
         const token = localStorage.getItem('token');
         if (token) {
-          const response = await axios.get('http://localhost:4000/profile', {
+          const response = await axios.get('https://farmdirectserver.vercel.app/profile', {
             headers: {
               Authorization: `Bearer ${token}`,
             },
