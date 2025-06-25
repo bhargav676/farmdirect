@@ -52,7 +52,7 @@ const JWT_SECRET = 'your_jwt_secret_key';
 // --- CASHFREE API DETAILS ---
 const cashfreeApiUrl = 'https://sandbox.cashfree.com/pg/orders';
 const clientId = 'TEST1068960071da83c198337a44acfb00698601'
-const clientSecret = 'cfsk_ma_test_6768511513a85d45bc215f46ca6e85bd_32b5a523';
+// const clientSecret = 'cfsk_ma_test_6768511513a85d45bc215f46ca6e85bd_32b5a523';
 const apiVersion = '2023-08-01';
 
 const verifyToken = (req, res, next) => {
