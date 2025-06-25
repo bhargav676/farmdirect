@@ -36,7 +36,7 @@ const Payment = ({ totalCost }) => {
       }
 
       const response = await axios.post(
-        'http://localhost:4000/api/create-order',
+        'https://farmdirectserver.vercel.app/api/create-order',
         {
           order_amount: totalCost, // Pass the totalCost from props
         },
